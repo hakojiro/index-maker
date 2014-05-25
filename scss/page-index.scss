@@ -1,0 +1,45 @@
+@import 'compass';
+
+.sidebar {
+	position: fixed;
+	top: 0px;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	display: block;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #f5f5f5;
+	border-right: 1px solid #eee;
+}
+
+.main {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.page-index-h1 {
+	padding-left: 0em;
+	font-weight: bold;
+}
+
+.page-index-h2 {
+	padding-left: 1em;
+	font-weight: bold;
+}
+
+.page-index-h3 {
+	padding-left: 2em;
+}
+
+.page-index-h4 {
+	padding-left: 3em;
+}
+
+.page-index-h5 {
+	padding-left: 4em;
+}
+
+.page-index-h6 {
+	padding-left: 5em;
+}
