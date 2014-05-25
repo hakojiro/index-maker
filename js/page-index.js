@@ -1,11 +1,11 @@
 $(function(){
 	function addIndex(h,s){
-		$('.page-index>ol').append('<li class="page-index-h'+h+'">'+$(s).text()+'</li>');
+		$('.page-index>ol').append('<li class="page-index-h'+h+'"><a>'+$(s).text()+'</a></li>');
 		delete h,s;
 	}
 	var h1 = h2 = h3 = h4 = h5 = h6 = 0;
 	var h = $('h1,h2,h3,h4,h5,h6,H1,H2,H3,H4,H5,H6');
-	$('.page-index').append('<ol></ol>');
+	$('.page-index').append('<ol class="nav nav-sidebar"></ol>');
 	h.each(function(n){
 		var t = this.tagName;
 		switch(t){
